@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Author: Nikki Collins
+    Date: 04/10/2021 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Hangman</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+        <div id="imagePlace"></div>
+        <!-- <input type="button" id="testMe" value="Start"> -->
+
+        <div id="letterSpot"></div>
+
+        <div class="col-">
+            Number of tries Left:
+        </div>
+        <div class="col-" id="trySpot"></div>
+
+
+        <div class="card">
+            <div class="card-body" style="padding: .5rem;">
+                <h6 class="card-title">Used Letters:</h6>
+                <div id="usedLetterSpot"></div>
+            </div>
+        </div>
+
+        <div id="alphabetSpot">
+            Print here:
+        </div>
+
+        <button type="button" class="btn btn-success" id="hintSpot">Hint!!!</button>
+        <div id="hintText"></div>
+
+        <div class="row">
+            <div class="col-sm center" id="winSpot"></div>
+            <div class="col-sm center" id="loseSpot"></div>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

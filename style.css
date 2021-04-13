@@ -1,0 +1,16 @@
+/* Author: Nikki Collins
+    Date: 04/10/2021 */
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .btn {
+    margin: .5rem;
+}
+.center{
+    margin: auto;
+}
+.jumbotron{
+    margin-top: 2.5rem;
+}
